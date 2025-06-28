@@ -1,0 +1,45 @@
+/* Chapter List */
+.chapter-list {
+    padding: 40px;
+}
+
+.chapter {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.chapter-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    color: #0a4275;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chapter-title:hover {
+    background-color: #f0f8ff;
+}
+
+.dropdown {
+    display: none;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.dropdown a {
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown a:hover {
+    text-decoration: underline;
+}
